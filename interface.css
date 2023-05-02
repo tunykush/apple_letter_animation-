@@ -1,0 +1,39 @@
+/* This is a CSS code that defines the styling for the webpage. It sets the font family, font size,
+background color, and margin for the body element. It also defines the styling for the container and
+template-footer classes, which are used to structure and style the content of the webpage. The
+template-footer class is positioned fixed at the bottom right of the page and has a specific height,
+width, border radius, background color, and padding. The commented out code is an optional styling
+for the paragraph element within the template-footer class. */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    background-color: rgba(242, 183, 5, 0.3);
+    margin: 0;
+  }
+  
+  .container {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .template-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 5px 0 0 0;
+    background-color: #ffffba;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.6rem;
+  }
+  /* .template-footer p {
+    max-width: 10ch;
+  } */
+  
+  
